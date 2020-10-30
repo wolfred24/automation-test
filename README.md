@@ -6,6 +6,7 @@ First, an quickly overview of app, if a simple api searching for TV shows, the m
 ### Run app
 
 `npm i`
+
 `npm run dev`
 
 Access to http://localhost:3000/shows
