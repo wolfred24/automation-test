@@ -2,7 +2,7 @@
 ----
 First, an quickly overview of app, if a simple api searching for TV shows, the main objetive is a litle form with a search box, when the button search is pressed redirect to another page with result.
 
-*Important:* You need to create a fork of this project to solve the exercise
+**Important:** You need to create a fork of this project to solve the exercise
 ### Run app
 
 `npm i`
@@ -19,7 +19,7 @@ Access to http://localhost:3000/shows
 * Search results show a list of items
 * Validate that image is not showed when image values is null
 
-2- Configure Selenium using selenium webdriver and make the following workflow:
+2- Configure Selenium or Cypress and make the following workflow:
 
 * Open browser in http://localhost:3000/shows
 * Enter a text in search box with text **batman**
