@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T00:29:19.848Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11071371000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.gerProperty()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login in to account with correct details",
+        "description": "",
+        "id": "search-for-batman-movies;login-in-to-account-with-correct-details",
+        "after": [
+          {
+            "result": {
+              "duration": 4328000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2220887000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1153602000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open browser in http://localhost:3000/shows",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000",
+                  "offset": 33
+                }
+              ],
+              "location": "stepFiles.Search.open_browser_in_http_localhost_shows(java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190049000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter a text in search box with text \"batman\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"batman\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepFiles.Search.enter_a_text_in_search_box_with_text_batman(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 965731000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Press button search",
+            "match": {
+              "location": "stepFiles.Search.press_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3779813000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Navigate to the url that is show in second card of results",
+            "match": {
+              "location": "stepFiles.Search.navigate_to_the_url_that_is_show_in_second_card_of_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812193000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate back using browser features",
+            "match": {
+              "location": "stepFiles.Search.navigate_back_using_browser_features()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109560000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Change css background color to #4a148c to card with title Batman Unlimited",
+            "match": {
+              "location": "stepFiles.Search.change_css_background_color_to_4a148c_to_card_with_title_batman_unlimited()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327916000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Press back button",
+            "match": {
+              "location": "stepFiles.Search.press_back_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183813000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Make sure that input for search is empty",
+            "match": {
+              "location": "stepFiles.Search.make_sure_that_input_for_search_is_empty()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search for Batman movies",
+    "description": "\tUser should be able to search for Batman movies and look at results",
+    "id": "search-for-batman-movies",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Search.feature",
+    "tags": []
+  }
+]

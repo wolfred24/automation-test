@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.918">
+    <testcase classname="Search for Batman movies" name="Login in to account with correct details" time="21.193">
+        <system-out>
+            <![CDATA[Given Open browser in http://localhost:3000/shows...........................passed
+And Enter a text in search box with text "batman"...........................passed
+And Press button search.....................................................passed
+And Navigate to the url that is show in second card of results..............passed
+And Navigate back using browser features....................................passed
+And Change css background color to #4a148c to card with title Batman Unlimited.passed
+When Press back button......................................................passed
+Then Make sure that input for search is empty...............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
